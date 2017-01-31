@@ -16,11 +16,14 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+//Typography Styles
 h1, h2, h3 {
   font-family: "Open Sans", sans-serif;
 }
 
+//Background gradient
 .navbar, .home-callout{
   background: #6190E8; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #6190E8 , #A7BFE8); /* Chrome 10-25, Safari 5.1-6 */
@@ -28,6 +31,7 @@ h1, h2, h3 {
         
 }
 
+// Nav Styles
 .navbar {
   border:none;
 }
@@ -40,6 +44,7 @@ h1, h2, h3 {
   }
 }
 
+// Homepage Style
 .home-callout{
   color: white;
   margin-top: -20px;
